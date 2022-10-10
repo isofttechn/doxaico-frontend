@@ -1,0 +1,149 @@
+.bs-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+p {
+  margin: 0;
+}
+.ins-cont {
+  width: 450px;
+  height: 300px;
+  margin-left: 50px;
+  background-image: url("../../../assets/black-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px 50px;
+  .list {
+    display: flex;
+    align-items: center;
+    img {
+      width: 60px;
+      height: 60px;
+    }
+    p {
+      color: #a3874d;
+      font-size: 15px;
+      padding-top: 10px;
+    }
+  }
+}
+.ins-cont,
+.bs-main {
+  margin-top: 70px;
+}
+
+.bs-main {
+  background-color: #a28f65;
+  width: 450px;
+  border-radius: 60px;
+  text-align: center;
+  padding: 20px 50px;
+  h2 {
+    font-size: 25px;
+    color: #212121;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 35px;
+  }
+
+  .bs-input {
+    box-shadow: 0px 2px 4px 0 rgba(0, 0, 0, 0.5);
+    border: solid 1px #212121;
+    border-radius: 12px;
+    padding: 12px 15px;
+    display: flex;
+    margin: 10px 0 10px;
+    height: 70px;
+    .inpt-cont,
+    .img-cont {
+      width: 50%;
+      position: relative;
+    }
+    .center {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .inpt-cont {
+      label {
+        background-color: #968561;
+        padding: 2px 10px;
+        font-size: 13px;
+        font-weight: normal;
+        color: #212121;
+        position: absolute;
+        top: -23px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 80%;
+      }
+      input {
+        border: 0;
+        border-bottom: 1px solid #212121;
+        color: #212121;
+        padding: 20px 5px 5px;
+        text-align: center;
+        height: auto;
+      }
+    }
+    .img-cont {
+      display: flex;
+      align-items: center;
+      img {
+        width: 40px;
+        margin: 0 10px 0 12px;
+      }
+      p {
+        color: #212121;
+        font-size: 18px;
+        text-transform: uppercase;
+      }
+    }
+  }
+  .transfer {
+    width: 25px;
+    height: 25px;
+    margin: 0.5em 0;
+  }
+  .bs-btn {
+    width: 100%;
+    margin: 1em 0;
+    border: 0;
+    background-color: #212121;
+    border-radius: 12px;
+    color: #dabe84;
+    font-size: 18px;
+    padding: 10px 0;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .ins-cont {
+    width: 90%;
+    margin: 40px 0;
+    padding: 0 20px;
+  }
+  .bs-main {
+    width: 90%;
+    padding: 20px;
+    .bs-input {
+      height: 60px;
+      .img-cont {
+        width: 60%;
+        img {
+          width: 25px;
+        }
+        p {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}

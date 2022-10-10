@@ -1,0 +1,108 @@
+.th-main {
+  padding: 0 30px;
+}
+
+.th-main .row-one {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.th-main .row-one button {
+  padding: 7px 25px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#cfba81), to(#a1844a));
+  background-image: linear-gradient(to bottom, #cfba81, #a1844a);
+  border: none;
+  font-size: 15px;
+  font-weight: normal;
+  color: #071A59;
+  margin-left: 20px;
+}
+
+.th-main .row-one button span {
+  font-weight: bold;
+}
+
+.th-main .row-one .send-btn {
+  border: 1px solid #184297;
+  padding: 5px 8px;
+  width: 50px;
+  cursor: pointer;
+}
+
+.th-main .row-one .send-btn img {
+  width: 100%;
+  height: 100%;
+}
+
+.th-main .row-two {
+  margin-top: 50px;
+}
+
+.th-main .row-two .list-item {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  padding: 15px 35px;
+  background-color: #071A59;
+  margin: 10px 0;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.th-main .row-two .list-item p {
+  font-size: 17px;
+  color: #BD913F;
+}
+
+.th-main .row-two .list-item .pc {
+  place-self: center;
+}
+
+.th-main .row-two .list-item .pe {
+  place-self: end;
+}
+
+.th-main .row-two .list-item:hover {
+  background-color: #071A59;
+}
+
+.th-main .row-two .list-item:hover p {
+  color: #BD913F;
+}
+
+@media only screen and (max-width: 800px) {
+  .th-main {
+    padding: 0 10px;
+  }
+  .th-main .row-two .list-item {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .th-main .row-two .list-item p {
+    overflow-wrap: anywhere;
+    margin: 2px 0;
+  }
+  .th-main .row-two .list-item .pc,
+  .th-main .row-two .list-item .pe {
+    place-self: flex-start;
+  }
+  .th-main .row-one {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .th-main .row-one button {
+    margin-left: 0;
+  }
+}
+/*# sourceMappingURL=trans.css.map */
