@@ -62,7 +62,7 @@ class TransactionHistory extends Component {
   }
 
   openTestNet(url) {
-    window.open("https://rinkeby.etherscan.io/tx/" + url, "_blank")
+    window.open("https://goerli.etherscan.io/tx/" + url, "_blank")
   }
   render() {
     return (

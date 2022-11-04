@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.fcf23caa.chunk.css",
-    "main.js": "/static/js/main.f2db4c94.chunk.js",
-    "main.js.map": "/static/js/main.f2db4c94.chunk.js.map",
+    "main.js": "/static/js/main.23cd4c22.chunk.js",
+    "main.js.map": "/static/js/main.23cd4c22.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.bd5daa94.js",
     "runtime-main.js.map": "/static/js/runtime-main.bd5daa94.js.map",
     "static/css/2.b28305bc.chunk.css": "/static/css/2.b28305bc.chunk.css",
-    "static/js/2.b0ae5a15.chunk.js": "/static/js/2.b0ae5a15.chunk.js",
-    "static/js/2.b0ae5a15.chunk.js.map": "/static/js/2.b0ae5a15.chunk.js.map",
+    "static/js/2.de600ea7.chunk.js": "/static/js/2.de600ea7.chunk.js",
+    "static/js/2.de600ea7.chunk.js.map": "/static/js/2.de600ea7.chunk.js.map",
     "static/js/3.b9628737.chunk.js": "/static/js/3.b9628737.chunk.js",
     "static/js/3.b9628737.chunk.js.map": "/static/js/3.b9628737.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.b28305bc.chunk.css.map": "/static/css/2.b28305bc.chunk.css.map",
     "static/css/main.fcf23caa.chunk.css.map": "/static/css/main.fcf23caa.chunk.css.map",
-    "static/js/2.b0ae5a15.chunk.js.LICENSE.txt": "/static/js/2.b0ae5a15.chunk.js.LICENSE.txt",
+    "static/js/2.de600ea7.chunk.js.LICENSE.txt": "/static/js/2.de600ea7.chunk.js.LICENSE.txt",
     "static/media/App.css": "/static/media/AvenirLTStd-Book.1f8a2264.ttf",
     "static/media/login.css": "/static/media/login-bg.f0c3f5ab.png",
     "static/media/doxa-10.e236669b.png": "/static/media/doxa-10.e236669b.png",
@@ -29,8 +29,8 @@
   "entrypoints": [
     "static/js/runtime-main.bd5daa94.js",
     "static/css/2.b28305bc.chunk.css",
-    "static/js/2.b0ae5a15.chunk.js",
+    "static/js/2.de600ea7.chunk.js",
     "static/css/main.fcf23caa.chunk.css",
-    "static/js/main.f2db4c94.chunk.js"
+    "static/js/main.23cd4c22.chunk.js"
   ]
 }
